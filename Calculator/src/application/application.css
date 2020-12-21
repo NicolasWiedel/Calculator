@@ -1,1 +1,32 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.button {
+	-fx-font-family: "Helvetica Neue Light";
+	-fx-font-size: 21px;
+	-fx-background-radius: 0px
+
+}
+
+.button:pressed {
+	-fx-background-color: black;
+}
+
+.display {
+	-fx-font-family: "Helvetica Neue Light";
+	-fx-font-size: 40px;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: grey;
+}
+
+.operator {
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: rgb(254, 147, 64);
+}
+
+.operator:pressed {
+	-fx-background-color: rgb(202, 116, 49);
+}
+
+.management {
+	
+}
